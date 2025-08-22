@@ -1,0 +1,88 @@
+#fundo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 157);
+    margin:auto /*Centraliza o componente*/
+}
+
+#topo{
+    position: relative;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 1502px;
+    height: 120px;
+    background-color: rgb(1, 182, 152);
+    text-align: center;
+    float: left; /*Encaixar à Esquerda */
+    margin:auto; 
+
+}
+
+#conteudo{
+    position: absolute;
+    left: 125px;
+    top: 120px;
+    width: 1220px;
+    height: 500px;
+    background-color: rgb(194, 184, 173);
+    z-index: 1;
+}
+
+
+
+#LE{
+    position: relative;
+    background-color: rgb(160, 180, 189);
+    clear: both;
+
+    width: auto ;
+    height: 500px;
+
+}
+
+#camada1{
+    position: absolute;
+    top: 120px;
+    left: 1349px;
+    width: 150px;
+    height: 140px;
+    background-color: #FFF;
+    text-align: center;
+
+    z-index: 2;
+}
+
+ #camada2{
+    position: absolute;
+    top: 263px;
+    left: 1349px;
+    width: 150px;
+    height: 135px;
+    background-color: #FFF;
+    text-align: center;
+
+    z-index: 2;
+}
+
+#rodape{
+    position: relative;
+    width: 1502px;
+    height: 30px;
+    background-color: rgb(29, 157, 231);
+    
+    
+
+
+}
+
+#imagem{
+    position: absolute;
+    top: 468px;
+    left: 1210px;
+    width: 150px;
+    height: 135px;
+
+    z-index: 3;
+}
