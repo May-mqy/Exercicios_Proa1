@@ -28,23 +28,61 @@ main {
     justify-content: center;
 }
 
+/*Estilo de onde ele está*/
 #menu_superior{
     width: 100%;
     height: 40px;
     background-color: rgb(2, 9, 100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*estilo do Hiperlink*/
+#menu_superior a{
+    color:#FFF;
+    text-decoration: none;
+    width: 16.67%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /*Conteúdo se encaixa no espaço existente*/
+}
+
+#menu_superior a:hover{
+    background-color:#fff;
+    color:blue;
+    transition: 1s all;
 }
 
 #menu_lateral{
     width: 20%;
     height: 480px;
-    background-color: rgb(120, 194, 136);
     float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_lateral a{
+    width: 100%;
+    height: auto;
+    background-color: #777;
+    padding: 11.8px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    text-align: left;
+}
+
+#menu_lateral a:hover{
+    background-color: #000;
+    border-color: #ff0000;
 }
 
 #meio{
     width: 58%;
     height: 480px;
-    background-color:rgb(255, 175, 213);
     float: left;
     padding-left: 1%; /*Espaçamento dentro do elemento, na largura (left e right)*/
     padding-right: 1%;
@@ -61,7 +99,6 @@ main {
 #div_meio{
     width: 100%;
     height: 150px;
-    background-color: #7c3523;
 
     & img{
         width: 100%;
@@ -72,14 +109,18 @@ main {
 #meio p{
     width: 100%;
     height: 130px;
-    background-color: #dc80ee;
+    background-color: #80e1ee;
     margin-top: 10px;
+    color: #000;
+    text-align: left;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
 }
 
 #container{
     width: 100%;
     height: 140px;
-    background-color: #ff0;
     margin-top: 10px;
 
     /*para alinhar as caixas é dentro da tag pai das caixas*/
@@ -92,12 +133,12 @@ main {
 .caixa{
     width: 30%;
     height: 140px;
-    background-color: rgb(148, 148, 224);
 }
 
 #caixa1{
-   background-image: url(imagens/Sol.png);
-   background-size: cover; /*para cobrir todo o espaço da caixa*/
+    background-image: url(imagens/Sol.png);
+    background-color: rgb(139, 173, 238);
+    background-size: cover; /*para cobrir todo o espaço da caixa*/
 }
     
 #caixa2{
@@ -113,7 +154,6 @@ main {
 aside{
     width: 20%;
     height: 480px;
-    background-color: rgb(250, 47, 142);
     float: left;
     
     & img{
