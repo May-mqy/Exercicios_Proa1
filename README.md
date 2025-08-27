@@ -1,1 +1,1 @@
-Exercícios feitos durante o UC1 sobre Desenvolvimento de Interface, HTML e CSS.
+Exercícios feitos durante a primeira UC, com foco em Desenvolvimento de Interface, HTML e CSS.
