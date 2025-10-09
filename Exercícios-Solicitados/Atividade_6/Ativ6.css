@@ -1,0 +1,116 @@
+*{
+    padding: 0; 
+    border: 0;
+}
+
+main{
+    position: relative;
+    height: auto;
+    width: 95%;
+    background-color:  rgb(199, 114, 114);
+    margin: auto;
+}
+
+header{
+    background-color: rgb(166, 226, 1);
+    width: 100%;
+    height: 140px;
+}
+
+
+#vermelho {
+    background-color: rgb(218, 0, 0);
+    width: auto;
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+
+#rosa1{
+    background-color: rgb(199, 114, 114);
+    width: 550px;
+    height: 320px;
+    margin: 30px 0px 0px 50px;
+    float: left;
+}
+
+
+
+#rosa2{
+    background-color: rgb(199, 114, 114);
+    width: 550px;
+    height: 320px;
+    margin: 30px 0px 0px 60px;
+    float: left;
+}
+
+#fundo_ciano{
+    background-color: aqua;
+    width: 100%;
+    height: 380px;
+    margin-top: 10px;
+    clear: left;
+}
+
+.caixas_brancas{
+    background-color: rgb(255, 255, 255);
+    width: 253px;
+    height: 340px;
+    border-radius: 20px;
+    text-align: center;
+
+    margin: 20px 0px 0px 50px;
+    float: left;
+}
+
+#laranja{
+    width: 100%;
+    height: 380px;
+    background-color: rgb(255, 60, 0);
+}
+
+p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#amarelo{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: yellow;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ 
+#caixa1{
+    position: relative;
+    margin-left: 50px;
+    width:42%;
+    height:320px;
+    background-color:#07024e;
+    float: left;
+}
+
+#caixa2{
+    position: relative;
+    float: left;
+    width: 42%;
+    height: 320px;
+    background-color: rgb(27, 158, 86);
+    margin-right: 50px;
+  
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+}
