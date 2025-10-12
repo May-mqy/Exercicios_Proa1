@@ -61,13 +61,42 @@
         </section>
 
         <section id="amarelo">
-            <div id="caixa1">Azul escuro</div>
-            <div id="caixa2">Verde</div>
+
+            <section id="formulario">
+                <form action="processa_formulario.php" method="POST">
+                <label class="caixa_forms" for="nome">Entre com o seu nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui:"><br><br>
+
+                <label for="email">Entre com o seu e-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu email aqui:"><br><br>
+
+                <label for="pedido">Faça seu pedido por aqui:</label><br>
+                <textarea id="pedido" name="pedido" rows="4" cols="40" placeholder="Faça seu pedido por aqui:"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <section id="Redes-Sociais">
+                <h4>Acesse também nossas Redes Sociais!</h4>
+                <section id="imagens-redes">
+                    <img src="imagens_atividade_violão/imagens/whats.png" alt="">
+                    <img src="imagens_atividade_violão/imagens/insta.png" alt="">
+                    <img src="imagens_atividade_violão/imagens/face.png" alt="">
+                </section>
+            </section>
+
         </section>
     </section>
 
     <footer>
-        FOOTER
+       <p id="texto_footer"> <br><span class="destaque"> Nossa Loja - Instrumentos Musicais </span> <br> Rua Tito,54 - Lapa <br> São Paulo - Brasil </p>
+
+       <section id="social-links">
+        <img src="imagens_atividade_violão/imagens/whats.png" alt="">
+        <img src="imagens_atividade_violão/imagens/insta.png" alt="">
+        <img src="imagens_atividade_violão/imagens/face.png" alt="">
+       </section>
     </footer>
 
     </main>
