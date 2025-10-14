@@ -73,7 +73,7 @@ header{
 
 #rosa1{
     background-color: rgb(143, 86, 78);
-    width: 550px;
+    width: 43%;
     height: 320px;
     margin: 30px 0px 0px 50px;
     float: left;
@@ -91,7 +91,7 @@ header{
 #rosa2{
     background-image: url(imagens_atividade_violão/imagens/loja.jpg);
     background-size: cover;
-    width: 550px;
+    width: 43%;
     height: 320px;
     margin: 30px 0px 0px 60px;
     float: left;
@@ -105,11 +105,16 @@ header{
     height: 380px;
     margin-top: 10px;
     clear: left;
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
 }
 
 .caixas_brancas{
     background-color: rgb(255, 255, 255);
-    width: 253px;
+    width: 20%;
     height: 340px;
     border-radius: 20px;
     text-align: center;
@@ -131,22 +136,24 @@ header{
 
 #laranja{
     width: 100%;
-    height: 380px;
+    height: 330px;
     background-color: rgb(255, 60, 0);
+    
 }
 
+
 #maps{
-    background-color: #07024e;
-    width: 550px;
-    height: 270px;
-    margin: 30px 0px 0px 50px;
+    padding: 30px;
     float: left;
+    width:42%;
+    height:270px; 
 }
 
 #marrom{
     background-color: rgb(143, 86, 78);
-    width: 550px;
-    height: 270px;
+    width:42%;
+    padding: 30px;
+    height: 210px;
     margin: 30px 0px 0px 60px;
     float: left;
 
@@ -290,4 +297,188 @@ footer{
 #imagens-redes img{
     width: 100px;
     height: 100px;   
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+header{
+    height: 100px;
+}
+
+#menu {
+    left: 70px;
+    top:30px;
+    width:80%;
+    height: 40px; 
+}
+
+    #vermelho {
+    height: 300px;
+   
+    }
+
+    #rosa1{
+        width: 42%;
+        height: auto;
+        margin: 30px 0px 0px 45px;
+
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .destaque{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+    #rosa2{
+        width: 42%;
+        height: 240px;
+        margin: 30px 0px 0px 40px;
+       
+    }
+
+    #fundo_ciano{
+    height: 700px;
+    }
+
+    .caixas_brancas{
+        background-color: rgb(255, 255, 255);
+        width: 35%;
+        height: 280px;   
+    }
+
+
+#laranja{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+#maps{
+    width: 400px;
+    height: 270px;
+    margin-right: -260px;
+
+}
+
+#marrom{
+    width: 40%;
+    height: 270px;
+    padding: 1px;
+}
+
+#Redes-Sociais{
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+}
+
+#imagens-redes img{
+    width: 80px;
+    height: 80px;   
+}
+
+}
+
+@media screen and (max-width:767px) {
+    header{
+    height: 160px;
+}
+
+#menu {
+    top: 70px;
+    left: 5%;
+    width: 90%;
+}
+
+#menu li {
+    margin: 0 5px; 
+}
+
+#menu a {
+    font-size: 12px;
+}
+    #vermelho {
+    height: 290px;
+   
+    }
+
+    #rosa1{
+        width: 40%;
+        height: auto;
+        margin: 20px 0px 0px 40px;
+
+        p{
+            font-size: 10px;
+        }
+    }
+
+    .destaque{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+
+    #rosa2{
+        width: 42%;
+        height: 240px;
+        margin: 3% 0px 0px 40px;
+       
+    }
+
+    #fundo_ciano{
+    height: 500px;
+    
+    }
+
+    .caixas_brancas{
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        height: 200px; 
+        
+        img{
+        margin-top: 15px;
+        width: 100%;
+        height: 80px;
+    }
+
+    .texto{
+        color:black;
+        margin: auto;
+        font-size: 10px;
+    }
+    }
+
+
+#laranja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+#maps{
+    width: 400px;
+    height: 270px;
+
+}
+
+#marrom{
+    width: 330px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#Redes-Sociais{
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+}
+
+#imagens-redes img{
+    width: 50px;
+    height: 50px;   
+}
 }
