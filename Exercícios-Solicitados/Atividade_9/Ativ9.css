@@ -20,7 +20,7 @@
 }
 @font-face {
     font-family:Dosis-VariableFont;
-    src: url('./assets/fontes/ArchitectsDaughter-Regular.ttf');
+    src: url('./assets/fontes/static/Dosis-Regular.ttf');
 }
 @font-face {
     font-family:DancingScript;
@@ -44,6 +44,8 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+
+    font-family: LibreBaskerville;
 }
 
 nav{
@@ -55,8 +57,9 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #menu1 {
@@ -78,7 +81,7 @@ nav a{
     &.conectar{
     border:1px solid black;
     background-color: #C5DBF2;
-    color: black;
+    color: rgb(65, 65, 65);
 }
 }
 
@@ -100,7 +103,124 @@ nav a{
 
 h1{
     font-family: LibreBaskerville;
-    font-size: 50px;
+    font-size: 54px;
     font-weight: 500;
 }
 
+#conteudo{
+    margin: 160px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#escrito{
+    width: 45%;
+
+    & p{
+        margin: 30px 0px 60px 0px;
+        font-size: 37px;
+        color: rgb(65, 65, 65);
+        font-weight: 500;
+        font-family: Dosis-VariableFont;
+    }
+
+    & a{
+    background-color: #007C88;
+    color: bisque;
+    padding: 20px 45px 20px 45px;
+    
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-family:LibreBaskerville;
+    }
+}
+
+#caixas{
+    width: 40%;
+}
+
+#laranja{
+    width: 110%;
+    height: 370px;
+    border-radius: 20px;
+    border: 2.5px solid black;
+    background-color: #F6D5C4;
+
+    & p{
+        color: #FA8548;
+        font-size: 30px;
+        font-family: Dosis-VariableFont;
+        font-weight: 700;
+        text-align: center;
+
+    }
+}
+
+#produto{
+   margin: 30px 40px;
+
+   width: 250px;
+   height: 230px;
+}
+
+#icones_caixa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#carrinho{
+    width: 30px;
+}
+
+#shopping{
+    position: absolute;
+    left: 1150px;
+    top: 400px;
+
+    width: 18%;
+    height: 260px;
+    border-radius: 15px;
+    border: 2.5px solid black;
+    background-color: #ffffff;
+    font-family: LibreBaskerville;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 5px 6px 0px black;
+
+    & p{
+        background-color: rgb(207, 205, 205);
+        padding: 10px;
+
+        width: 283px;
+        border-top-left-radius:12px;
+        border-top-right-radius:12px;
+        border: 2.3px solid black;
+    }
+
+    & img{
+        width: 270px;
+    }
+
+    & a{
+        background-color: #007C88;
+        color: bisque;
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 8px;
+       
+    
+    
+        text-decoration: none;
+        font-weight: 400;
+    }
+}
