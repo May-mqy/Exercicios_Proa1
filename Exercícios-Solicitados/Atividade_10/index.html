@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <title>Reprodução Youtube</title>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="logo">
+               <span class="material-symbols-outlined" id="menu_icone">menu</span>
+                <img src="images/logo-youtube.png" alt="Logo Youtube">
+                <p>YouTube</p>
+            </div>
+
+            <div class="pesquisa">
+                <input id="barra_pesquisa" type="text" placeholder="Pesquisar">
+                <div class="icons_pesquisa">
+                    <span class="material-symbols-outlined">close</span>
+                    <span class="material-symbols-outlined" id="lupa_botao">search</span>
+                </div>
+            </div>
+
+            <div class="icones">
+                <span class="material-symbols-outlined">notifications</span>
+                <img class="foto-perfil" src="images/may-foto-perfil.jpg" alt="Foto de Perfil">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Menu Lateral -->
+        <aside>
+            <nav>
+                <ul type="none"> 
+                    <li id="menu_inicio">
+                        <span class="material-symbols-outlined">home</span>
+                        <a href="#" >Início</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">explore</span>
+                        <a href="#">Shorts</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">subscriptions</span>
+                        <a href="#">Inscrições</a>
+                    </li>
+                    <hr>
+                </ul>
+                <!-- Você > -->
+                <ul>
+                    <li>
+                        <a href="#"><span class="destaque">Você > </span></a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">history</span>
+                        <a href="#">Histórico</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">playlist_play</span>
+                        <a href="#">Playlists</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">smart_display</span>
+                        <a href="#">Seus vídeos</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">school</span>
+                        <a href="#">Seus cursos</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">mic</span>
+                        <a href="#">Seus podcasts</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">schedule</span>
+                        <a href="#">Assistir mais tarde</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">thumb_up</span>
+                        <a href="#">Vídeos com "Gostei"</a>
+                    </li>
+                    <hr>
+                </ul>
+                <!-- Inscrições > -->
+                <ul>
+                    <li>
+                        <a href="#"><span class="destaque">Inscrições > </span></a>
+                    </li>
+                    <li class="inscricoes">
+                        <img src="images/blogueirinha-icone.jpeg" alt="">
+                        <a href="#">Blogueirinha</a>
+                        <span  class="material-symbols-outlined" id="sensor">sensors</span>
+                    </li>
+                    <li class="inscricoes">
+                        <img src="images/diatv.jpg" alt="">
+                        <a href="#">DiaTV</a>
+                        <span  class="material-symbols-outlined" id="sensor">sensors</span>
+                    </li>
+                    <li class="inscricoes">
+                        <img src="images/diva-depressao.jpg" alt="">
+                        <a href="#">DivaDepressão</a>
+                        <span  class="material-symbols-outlined" id="sensor">sensors</span>
+                    </li>
+                    <hr>
+                </ul>
+                <!-- Explorar -->
+                <ul>
+                    <p><span class="destaque">Explorar</span></p>
+                    
+                    <li>
+                        <span class="material-symbols-outlined">shopping_bag</span>
+                        <a href="#">Shopping</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">music_note</span>
+                        <a href="#">Música</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">movie</span>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">sensors</span>
+                        <a href="#">Ao vivo</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">videogame_asset</span>
+                        <a href="#">Jogos</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">news</span>
+                        <a href="#">Notícias</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">trophy</span>
+                        <a href="#">Esportes</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">school</span>
+                        <a href="#">Cursos</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">mic</span>
+                        <a href="#">Podcasts</a>
+                    </li>
+                    <hr>
+                </ul>
+                <!-- Mais do Youtube -->
+                <ul id="mais_youtube">
+                   <p><span class="destaque">Mais YouTube</span></p>
+                    <li>
+                        <img src="images/logo-youtube.png" alt="">
+                        <a href="#">Youtube Premium</a>
+                    </li>
+                    <li>
+                        <img src="images/logo-youtube-studio.png" id="logo-studio" alt="">
+                        <a href="#">Youtube Studio</a>
+                    </li>
+                    <li>
+                        <img src="images/logo-youtube-music.png" alt="">
+                        <a href="#">Youtube Music</a>
+                    </li>
+                    <li>
+                        <img src="images/logo-youtube-kids.png" alt="">
+                        <a href="#">Youtube Kids</a>
+                    </li>
+                    <hr>
+                </ul>
+                <!--Configurações-->
+                <ul>
+                    <li>
+                        <span class="material-symbols-outlined">settings</span>
+                        <a href="#">Configurações</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">flag</span>
+                        <a href="#">Histórico de denúncias</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">help</span>
+                        <a href="#">Ajuda</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">feedback</span>
+                        <a href="#">Enviar feedback</a>
+                    </li>
+                    <hr>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Conteúdo: vídeos  -->
+        <section id="conteudo_videos">
+
+            <section id="menu_videos">
+                <nav>
+                    <ul>
+                        <li><a href="#" id="destaque_menu_videos">Tudo</a></li>
+                        <li><a href="#">Jogos</a></li>
+                        <li><a href="#">Música</a></li>
+                        <li><a href="#">Mixes</a></li>
+                        <li><a href="#">Ao vivo</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Música Sertaneja</a></li>
+                        <li><a href="#">Dance-Pop</a></li>
+                        <li><a href="#">Animação</a></li>
+                        <li><a href="#">Jogos de ação e aventura</a></li>
+                        <li><a href="#">Novidades para você</a></li>
+                    </ul>
+                </nav>
+
+                <section id="destaque_video">
+                   <div>
+                        <img src="images/capa_video_diva.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>REAGINDO À GENTE RICA PASSANDO VERGONHA NA INTERNET #2 | Diva Depressão</h3>
+                        <p>Diva Depressão <br> 1 mi de visualizações  •  há 5 meses</p>
+                   </div>
+                   <div>
+                        <img src="images/foto-capa-gumball.webp" alt="Imagem do vídeo em destaque">
+                        <h3>Os Imitadores | O Incrível Mundo de Gumball | Cartoon Network 🇧🇷</h3>
+                        <p>O incrível Mundo de Gumball <br> 12 mi de visualizações  •  há 4 anos</p>
+                   </div>
+                   <div>
+                        <img src="images/foto-capa-jazzghost.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>POPPY PLAYTIME CAPÍTULO 4!</h3>
+                        <p>Jazzghost <br> 11 mi de visualizações  •  há 8 meses</p>
+                   </div>
+                </section>
+
+                <section id="destaque_video">
+                   <div>
+                        <img src="images/capa-corrida.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>Ep. 6 Corrida das Blogueiras 5: DIY: QUEM TEM AMIGO TEM LOOK com Ikaro Kadoshi (@OVoodeIkaro)</h3>
+                        <p>Diva Depressão <br> 694 mil de visualizações  •  há 1 ano</p>
+                   </div>
+                   <div>
+                        <img src="images/capa_aqueles-caras.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>QUEM É O PAGODEIRO? FT. Ferrugem</h3>
+                        <p>Aqueles Caras  <br> 6,4 mi de visualizações  •  há 9 meses</p>
+                   </div>
+                   <div>
+                        <img src="images/capa-arthur.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>FINALMENTE O ULTIMO CAPÍTULO DE "VALE TUDO" - COMO PODE TER SIDO TÃO RUIM? </h3>
+                        <p>Arthur Viana - Canal 2 <br> 108 mil de visualizações  •  há 13 dias</p>
+                   </div>
+                </section>
+                
+                <section id="destaque_video">
+                    <div>
+                        <img src="images/capa_video_diva.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>REAGINDO À GENTE RICA PASSANDO VERGONHA NA INTERNET #2 | Diva Depressão</h3>
+                        <p>Diva Depressão <br> 1 mi de visualizações  •  há 5 meses</p>
+                    </div>
+                    <div>
+                        <img src="images/foto-capa-gumball.webp" alt="Imagem do vídeo em destaque">
+                        <h3>Os Imitadores | O Incrível Mundo de Gumball | Cartoon Network 🇧🇷</h3>
+                        <p>O incrível Mundo de Gumball <br> 12 mi de visualizações  •  há 4 anos</p>
+                    </div>
+                    <div>
+                        <img src="images/foto-capa-jazzghost.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>POPPY PLAYTIME CAPÍTULO 4!</h3>
+                        <p>Jazzghost <br> 11 mi de visualizações  •  há 8 meses</p>
+                   </div>
+                </section>
+                <section id="destaque_video">
+                   <div>
+                        <img src="images/capa-corrida.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>Ep. 6 Corrida das Blogueiras 5: DIY: QUEM TEM AMIGO TEM LOOK com Ikaro Kadoshi (@OVoodeIkaro)</h3>
+                        <p>Diva Depressão <br> 694 mil de visualizações  •  há 1 ano</p>
+                   </div>
+                   <div>
+                        <img src="images/capa_aqueles-caras.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>QUEM É O PAGODEIRO? FT. Ferrugem</h3>
+                        <p>Aqueles Caras  <br> 6,4 mi de visualizações  •  há 9 meses</p>
+                   </div>
+                   <div>
+                        <img src="images/capa-arthur.jpeg" alt="Imagem do vídeo em destaque">
+                        <h3>FINALMENTE O ULTIMO CAPÍTULO DE "VALE TUDO" - COMO PODE TER SIDO TÃO RUIM? </h3>
+                        <p>Arthur Viana - Canal 2 <br> 108 mil de visualizações  •  há 13 dias</p>
+                   </div>
+                </section>
+                
+            </section>
+            
+        </section>
+    </main>
+    
+    <footer>
+        
+    </footer>
+</body>
+</html>
